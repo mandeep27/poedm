@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>POEDM</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" sizes="32x32" type="image/x-icon">
+
+    <!-- Bootstrap.min.css, Animate.css and OwlCarousel.css -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> 
+
+    <!-- Custom - from scss/style.scss -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- Header area -->
+    <header class="home-header">
+        <div class="container">
+            <div class="cvr-header">
+                <div class="home-logo">
+                    <a href="#"><img src="images/logo.png" alt="logo"></a>
+                </div>
+                <div class="login-section-wth-scl-accnt">
+                    <div class="login-area">
+                        <form>
+                            <div class="form-title">
+                                <label>login</label>
+                            </div>
+                            <div class="form-fields">
+                                <div class="form-box1">
+                                    <input type="text" placeholder="Email">
+                                    <p class="chck">
+                                        <input type="checkbox" id="box-1">
+                                        <label for="box-1">Remember Me</label>
+                                    </p>
+                                </div>
+                                <div class="form-box1">
+                                    <input type="text" placeholder="Password">
+                                    <p><a data-toggle="modal" data-target="#fp" href="#">Forgot Password?</a></p>
+                                </div>
+                                <div class="form-box2">
+                                    <input type="button" value="login">
+                                    <p>English <i class="fa fa-caret-down" aria-hidden="true"></i></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="social_details">
+                        <ul>
+                            <li><a href="#"><img src="images/fb_icon.jpg" alt="fb_icon"></a></li>
+                            <li><a href="#"><img src="images/g_plus_icon.jpg" alt="g_plus_icon"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="home-main-banner" style="background:url(images/home-main-banner.jpg);">
+        <div class="container">
+            <h1>PoeDM is Your Stage & The World is Your Audience!</h1>
+            <div class="banner-cntnt">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <ul>
+                            <li>
+                                <span class="wow rotateIn"><img src="images/bys_icon.png" alt="bys_icon"></span>
+                                <p>Create your own channels (for anything)</p>
+                            </li>
+                            <li>
+                                <span class="wow rotateIn"><img src="images/post_icon.png" alt="post_icon"></span>
+                                <p>Post anything funny, educative, entertaining, etc. (Photos, Videos, Message, Stream, Links & Audio)</p>
+                            </li>
+                            <li>
+                                <span class="wow rotateIn"><img src="images/sbscriber_icon.png" alt="sbscriber_icon"></span>
+                                <p>Get loads of fans (Subscribers)</p>
+                            </li>
+                            <li>
+                                <span class="wow rotateIn"><img src="images/wow_icon.png" alt="wow_icon"></span>
+                                <p>Keep Entertaining your fans (Subscribers)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="register_form">
+                            <h2>Register & Be A Super Star!</h2>
+                            <form>
+                                <div class="form-group f-lft">
+                                    <input class="form-control" placeholder="First Name" type="text">
+                                </div>
+                                <div class="form-group f-rght">
+                                    <input class="form-control" placeholder="Last Name" type="text">
+                                </div>
+                                <div class="form-group clr">
+                                    <input class="form-control" placeholder="Email" type="text">
+                                </div>
+                                <div class="form-group f-lft">
+                                    <input class="form-control" placeholder="Password" type="text">
+                                </div>
+                                <div class="form-group f-rght">
+                                    <input class="form-control" placeholder="Confirm Password" type="text">
+                                </div>
+                                <div class="form-group f-lft">
+                                    <select class="form-control">
+                                        <option>I am</option>
+                                        <option>M</option>
+                                        <option>F</option>
+                                </select>
+                                </div>
+                                <div class="form-group f-rght">
+                                    <input class="form-control" placeholder="Phone" type="text">
+                                </div>
+                                <div class="clr"></div>
+                                <p class="chck">
+                                    <input type="checkbox" id="box-2">
+                                    <label for="box-2">I agree to Terms & Condition</label>
+                                </p>
+                                <input type="button" value="Register" data-toggle="modal" data-target="#cp">
+                                <div class="social-registration">
+                                    <p>Or Register/Login with Social Media</p>
+                                    <ul>
+                                        <li class="fb"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i> facebook</a></li>
+                                        <li class="ggl"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> google +</a></li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dwnld_app_section">
+        <div class="container">
+            <p><a href="#"><img src="images/app_store_icon.png" alt="ggl-play_icon"></a> <a href="#"><img src="images/ggl-play_icon.png" alt="ggl-play_icon"></a> Download the PoeDM Mobile App.</p>
+        </div>
+    </section>
+    <section class="steps">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="steps_info">
+                        <div class="heading-block">
+                            <figure class="rockyou-img"><img src="images/rock-you.jpg" alt="rock-you"></figure>
+                            <h2>PoeDM brings out the creativity in you, <br>Think freely & share stuff that the world will love.</h2>
+                        </div>
+                        <div class="content-block">
+                            <ul>
+                                <li>
+                                    <figcaption>
+                                        You can start a channel to show your comedy side (funny stuff).
+                                    </figcaption>
+                                    <figure>
+                                        <img src="images/clown.svg" alt="clown">
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="images/group.svg" alt="group">
+                                    </figure>
+                                    <figcaption>
+                                        You can start a channel to show your comedy side (funny stuff).
+                                    </figcaption>
+                                </li>
+                                <li>
+                                    <figcaption>
+                                        You can start a channel to show your comedy side (funny stuff).
+                                    </figcaption>
+                                    <figure>
+                                        <img src="images/user-w-tie.svg" alt="user-w-tie">
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="images/view.svg" alt="view">
+                                    </figure>
+                                    <figcaption>
+                                        You can start a channel to show your comedy side (funny stuff).
+                                    </figcaption>
+                                </li>
+                            </ul>
+                            <h3>Endless Opportunities 4 U. Get Started! Get Noticed!!</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mobile-screen-view">
+                        <figure class="wow bounce"><img src="images/iphone-view_img.jpg" alt="iphone-view_img"></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer area -->
+    <footer class="hm-footer">
+        <div class="container">
+            <p class="copyright">PoeDM © Copyright 2018 New Jersey, USA</p>
+            <p class="footer-menu"><a href="#">Privacy Policy</a> <span>-</span> <a href="#">Terms of Services</a> <span>-</span> <a href="#">Contact Us</a> <span>-</span> <a href="#">About PoeDM</a> <span>-</span> <a href="#">FAQ</a></p>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for JavaScript plugins) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!-- Our Custom js here -->
+    <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
+
+
+    <!-- Create profile -->
+
+    <div class="modal fade createprofile" id="cp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="#" class="close" data-dismiss="modal" aria-label="Close"><img src="images/close-modal.png" alt="close-modal"></a>
+                    <h4 class="modal-title" id="myModalLabel">Create Profile</h4>
+                    <div class="clr"></div>
+                    <div class="upload-img-file">
+                        <label for="uploadFile"><i class="fileUploadImg fa fa-user-plus"></i></label>
+                        <input id="uploadFile" type="file" style="display:none" multiple="multiple" data-bind="event:{change:fileUploadChange}">
+                        <div class="selectedImages" data-bind="foreach:selectedFiles">
+                            <img alt="" data-bind="attr: { src:base64String }" />
+                        </div>
+                        <p>Click to Upload</p>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <select class="form-control"><option>Enter Your Profile Type</option></select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Enter Your Date of Birth ">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input class="form-control" type="text" Placeholder="Enter Your Country">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Describe Yourelf"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clr"></div>
+                    <input value="Submit" type="button">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- forget password -->
+
+    <div class="modal fade frgt-pwd" id="fp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="#" class="close" data-dismiss="modal" aria-label="Close"><img src="images/close-modal.png" alt="close-modal"></a>
+                    <figure><img src="images/logo.png" alt="logo"></figure>
+                    <h3>Forgot your password?</h3>
+                    <h6>Enter your email below to receive your password reset instructions</h6>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input class="form-control" type="text" Placeholder="Email Address">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clr"></div>
+                    <input value="Submit" type="button">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
